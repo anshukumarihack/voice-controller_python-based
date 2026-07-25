@@ -1,0 +1,18 @@
+# ── Core ASR ─────────────────────────────────────────────────────────────
+vosk>=0.3.45            # Offline speech recognition (Kaldi-based)
+sounddevice>=0.4.6      # Cross-platform microphone access
+
+# ── Automation ───────────────────────────────────────────────────────────
+pyautogui>=0.9.54       # GUI automation (keyboard, mouse, screenshots)
+pyperclip>=1.8.2        # Cross-platform clipboard read/write
+
+# ── Audio processing ─────────────────────────────────────────────────────
+numpy>=1.24.0           # Audio buffer manipulation for noise filter
+
+# ── UI ───────────────────────────────────────────────────────────────────
+pystray>=0.19.4         # System tray icon
+Pillow>=10.0.0          # Icon rendering (pystray dependency)
+
+# ── Optional extras ──────────────────────────────────────────────────────
+# brightnessctl           # Linux brightness control (install via apt)
+# nircmd                  # Windows system commands (download separately)
