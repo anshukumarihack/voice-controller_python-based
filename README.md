@@ -212,6 +212,12 @@ voice_assistant/
 
 ---
 
+
+## Architecture diagram
+
+<img width="1440" height="1240" alt="image" src="https://github.com/user-attachments/assets/123ba047-773d-4fcb-9aa4-1d8a0fbbfe52" />
+
+---
 ## Extending the assistant
 
 1. Create a new command module in `commands/`.
