@@ -55,6 +55,33 @@ Or launch with the tray UI:
 python main.py --tray
 ```
 
+### Easy launch script
+
+Create a small script so anyone can start the assistant without typing the command every time.
+
+Windows (`run_assistant.bat`):
+
+```bat
+@echo off
+cd /d "%~dp0"
+python main.py
+pause
+```
+
+macOS / Linux (`run_assistant.sh`):
+
+```bash
+#!/usr/bin/env bash
+cd "$(dirname "$0")"
+python3 main.py
+```
+
+Make the shell script executable:
+
+```bash
+chmod +x run_assistant.sh
+```
+
 ---
 
 ## Usage
